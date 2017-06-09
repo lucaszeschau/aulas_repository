@@ -1,0 +1,158 @@
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\ApplicationInsights.config
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\roslyn\csc.exe
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\roslyn\vbc.exe
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\roslyn\VBCSCompiler.exe
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\ProjetoLoja.dll.config
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\ProjetoLoja.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\ProjetoLoja.pdb
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Antlr3.Runtime.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\EntityFramework.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\EntityFramework.SqlServer.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.AI.Web.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.ApplicationInsights.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Newtonsoft.Json.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Owin.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\System.Web.Optimization.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\System.Web.Providers.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\WebGrease.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.AI.Web.xml
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.ApplicationInsights.xml
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\System.Web.Optimization.xml
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Antlr3.Runtime.pdb
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Newtonsoft.Json.xml
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\EntityFramework.xml
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\EntityFramework.SqlServer.xml
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\System.Web.Providers.xml
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.xml
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.xml
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\obj\Debug\ProjetoLoja.csprojResolveAssemblyReference.cache
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\obj\Debug\ProjetoLoja.dll
+C:\Users\said\documents\visual studio 2015\Projects\ProjetoLoja\ProjetoLoja\obj\Debug\ProjetoLoja.pdb
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\ApplicationInsights.config
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\roslyn\csc.exe
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\roslyn\System.Collections.Immutable.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\roslyn\System.Reflection.Metadata.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\roslyn\vbc.exe
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\roslyn\VBCSCompiler.exe
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\roslyn\VBCSCompiler.exe.config
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\ProjetoLoja.dll.config
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\ProjetoLoja.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\ProjetoLoja.pdb
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Antlr3.Runtime.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\AspNet.ScriptManager.bootstrap.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\AspNet.ScriptManager.jQuery.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\EntityFramework.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\EntityFramework.SqlServer.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.AI.Agent.Intercept.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.AI.DependencyCollector.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.AI.Web.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.AI.WindowsServer.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.ApplicationInsights.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.AspNet.Identity.Core.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.Cookies.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.Facebook.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.Google.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.OAuth.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.Twitter.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.ScriptManager.WebForms.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.Web.Infrastructure.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Newtonsoft.Json.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Owin.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\System.Web.Optimization.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\System.Web.Providers.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\WebGrease.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.AI.DependencyCollector.xml
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.AI.Web.xml
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.AI.WindowsServer.xml
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.ApplicationInsights.xml
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\System.Web.Optimization.xml
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Antlr3.Runtime.pdb
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Newtonsoft.Json.xml
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\EntityFramework.xml
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\EntityFramework.SqlServer.xml
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.AspNet.Identity.Core.xml
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\System.Web.Providers.xml
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.xml
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.xml
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.Facebook.xml
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.Cookies.xml
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.Google.xml
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.Twitter.xml
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\bin\Microsoft.Owin.Security.OAuth.xml
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\obj\Debug\ProjetoLoja.dll
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\obj\Debug\ProjetoLoja.pdb
+E:\ProjetoLoja\ProjetoLoja\ProjetoLoja\obj\Debug\ProjetoLoja.csprojResolveAssemblyReference.cache
