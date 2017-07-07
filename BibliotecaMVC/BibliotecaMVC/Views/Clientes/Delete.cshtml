@@ -1,0 +1,50 @@
+﻿@model BibliotecaMVC.Models.Cliente
+
+@{
+    ViewBag.Title = "Excluir Cliente";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<div>
+    <br />
+    <h4>Detalhes</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            <label>Nome do cliente:</label>
+        </dt>
+        <dd>
+            @Html.DisplayFor(m => m.Nome)
+        </dd>
+        <dt>
+            <label>Status:</label>
+        </dt>
+
+        @if (!Model.Status)
+        {
+            <dd>
+                <p>Inativo</p>
+            </dd>
+        }
+        else
+        {
+            <dd>
+                <p>Ativo</p>
+            </dd>
+        }
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Excluir" class="btn btn-danger" />
+            <a type="button" class="btn btn-default" href="~/Clientes/Index" style="width:100px; height:40px">
+                <label>Cancelar</label>
+            </a>
+        </div>
+    }
+</div>

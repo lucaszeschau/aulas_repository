@@ -1,0 +1,154 @@
+﻿@using BibliotecaMVC.Controllers;
+@model IEnumerable<BibliotecaMVC.Models.Operacao>
+
+@{
+    ViewBag.Title = "Empréstimos/Devoluções";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="form">
+    <h2>@ViewBag.Title</h2>
+    <br />
+    <div class="alert alert-dismissible alert-warning">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <h4>Aviso!</h4>
+        <p>As linhas da tabela que estão com a coloração em vermelho indicam que o(s) livro(s) estão com data de entrega atrasada.</p>
+    </div>
+    <br />
+    <div class="form-group">
+        @if (Model != null)
+        {
+            <table class="table">
+                <tr>
+                    <th>
+                        <label>Livro</label>
+                    </th>
+                    <th>
+                        <label>Cliente</label>
+                    </th>
+                    <th>
+                        <label>Data do Empréstimo</label>
+                    </th>
+                    <th>
+                        <label>Previsão</label>
+                    </th>
+                    <th>
+                        <label>Data da Devolução</label>
+                    </th>
+                    <th>
+                        <label>Ação</label>
+                    </th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    if (item.Status == true && item.DataPrevisao < DateTime.Today)
+                    {
+                        <tr class="danger">
+                            @if (item.IdLivro != 0)
+                            {
+                                var _livro = new LivrosController();
+                                var titulo = _livro.GetLivroByTitulo(item.IdLivro);
+
+                                <td>
+                                    <p>@titulo</p>
+                                </td>
+                            }
+
+                            @if (item.IdCliente != 0)
+                            {
+                                var _cliente = new ClientesController();
+                                var nome = _cliente.GetClienteByNome(item.IdCliente);
+
+                                <td>
+                                    <p>@nome</p>
+                                </td>
+                            }
+
+                            <td>
+                                <p>@item.DataEmprestimo.ToShortDateString()</p>
+                            </td>
+                            <td>
+                                <p>@item.DataPrevisao.ToShortDateString()</p>
+                            </td>
+
+                            @if (item.DataDevolucao != null)
+                            {
+                                <td>
+                                    @Html.DisplayFor(m => item.DataDevolucao)
+                                </td>
+                                <td>
+                                    @Html.ActionLink("Detalhes", "Details", new { Id = item.Id })
+                                </td>
+                            }
+                            else
+                            {
+                                <td>
+                                    <p>-</p>
+                                </td>
+                                <td>
+                                    @Html.ActionLink("Detalhes", "Details", new { Id = item.Id }) |
+                                    @Html.ActionLink("Realizar Devolução", "UpdateOperacoes", new { Id = item.Id })
+                                </td>
+                            }
+                        </tr>
+                    }
+                    else
+                    {
+                        <tr>
+                            @if (item.IdLivro != 0)
+                            {
+                                var _livro = new LivrosController();
+                                var titulo = _livro.GetLivroByTitulo(item.IdLivro);
+
+                                <td>
+                                    <p>@titulo</p>
+                                </td>
+                            }
+
+                            @if (item.IdCliente != 0)
+                            {
+                                var _cliente = new ClientesController();
+                                var nome = _cliente.GetClienteByNome(item.IdCliente);
+
+                                <td>
+                                    <p>@nome</p>
+                                </td>
+                            }
+
+                            <td>
+                                <p>@item.DataEmprestimo.ToShortDateString()</p>
+                            </td>
+                            <td>
+                                <p>@item.DataPrevisao.ToShortDateString()</p>
+                            </td>
+
+                            @if (item.DataDevolucao != null)
+                            {
+                                <td>
+                                    @Html.DisplayFor(m => item.DataDevolucao)
+                                </td>
+                                <td>
+                                    @Html.ActionLink("Detalhes", "Details", new { Id = item.Id })
+                                </td>
+                            }
+                            else
+                            {
+                                <td>
+                                    <p>-</p>
+                                </td>
+                                <td>
+                                    @Html.ActionLink("Detalhes", "Details", new { Id = item.Id }) |
+                                    @Html.ActionLink("Realizar Devolução", "UpdateOperacoes", new { Id = item.Id })
+                                </td>
+                            }
+                        </tr>
+                    }
+                }
+            </table>
+        }
+    </div>
+    <div class="form-group">
+        <a type="button" class="btn btn-primary" style="width:170px" href="~/Operacoes/Create"><label>Novo Empréstimo</label></a>
+    </div>
+</div>

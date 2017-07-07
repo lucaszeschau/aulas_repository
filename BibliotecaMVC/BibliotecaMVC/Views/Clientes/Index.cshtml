@@ -1,0 +1,62 @@
+﻿@model IEnumerable<BibliotecaMVC.Models.Cliente>
+
+@{
+    ViewBag.Title = "Clientes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="form">
+    <h2>@ViewBag.Title</h2>
+    <br />
+    <div class="form-group">
+        @if (Model != null)
+        {
+            <table class="table">
+                <tr>
+                    <th>
+                        <label>Nome</label>
+                    </th>
+                    <th>
+                        <label>Status</label>
+                    </th>
+                    <th>
+                        <label>Ação</label>
+                    </th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <p>@item.Nome</p>
+                        </td>
+                        @if (!item.Status)
+                        {
+                            <td>
+                                <p>Inativo</p>
+                            </td>
+                            <td>
+                                @Html.ActionLink("Editar", "Edit", new { Id = item.Id }) |
+                                @Html.ActionLink("Detalhes", "Details", new { Id = item.Id }) |
+                                @Html.ActionLink("Excluir", "Delete", new { Id = item.Id })
+                            </td>
+                        }
+                        else
+                        {
+                            <td>
+                                <p>Ativo</p>
+                            </td>
+                            <td>
+                                @Html.ActionLink("Editar", "Edit", new { Id = item.Id }) |
+                                @Html.ActionLink("Detalhes", "Details", new { Id = item.Id })
+                            </td>
+                        }
+                    </tr>
+                }
+            </table>
+        }
+    </div>
+    <div class="form-group">
+        <a type="button" class="btn btn-primary" style="width:100px" href="~/Clientes/Create"><label>Cadastrar</label></a>
+    </div>
+</div>

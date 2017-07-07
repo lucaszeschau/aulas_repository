@@ -1,0 +1,50 @@
+﻿@model BibliotecaMVC.Models.Livro
+
+@{
+    ViewBag.Title = "Excluir Livro";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<div>
+    <br />
+    <h4>Detalhes</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            <label>Título:</label>
+        </dt>
+        <dd>
+            @Html.DisplayFor(m => m.Nome)
+        </dd>
+        <dt>
+            <label>Autor(a):</label>
+        </dt>
+        <dd>
+            @Html.DisplayFor(m => m.Autor)
+        </dd>     
+
+        @if (!String.IsNullOrEmpty(Model.Sinopse))
+        {
+            <dt>
+                <label>Sinópse:</label>
+            </dt>
+            <dd>
+                @Html.DisplayFor(m => m.Sinopse)
+            </dd>
+        }
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Excluir" class="btn btn-danger" />
+            <a type="button" class="btn btn-default" href="~/Categorias/Index" style="width:100px; height:40px">
+                <label>Cancelar</label>
+            </a>
+        </div>
+    }
+</div>

@@ -1,0 +1,70 @@
+﻿@using BibliotecaMVC.Controllers;
+@model BibliotecaMVC.Models.Livro
+
+@{
+    ViewBag.Title = "Detalhes do Livro";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            <label>Título do Livro:</label>
+        </dt>
+        <dd>
+            @Html.DisplayFor(m => m.Nome)
+        </dd>
+        <dt>
+            <label>Autor(a):</label>
+        </dt>
+        <dd>
+            @Html.DisplayFor(m => m.Autor)
+        </dd>
+
+        @if (Model.IdCategoria != 0)
+        {
+            var _controller = new CategoriasController();
+            var categoria = _controller.GetCategoriaByNome(Model.IdCategoria);
+
+            <dt>
+                <label>Categoria:</label>
+            </dt>
+            <dd>
+                <p>@categoria</p>
+            </dd>
+        }
+
+        @if (!String.IsNullOrEmpty(Model.Sinopse))
+        {
+            <dt>
+                <label>Sinópse:</label>
+            </dt>
+            <dd>
+                @Html.DisplayFor(m => m.Sinopse)
+            </dd>
+        }
+        <dt>
+            <label>Status:</label>
+        </dt>
+
+        @if (!Model.Disponivel)
+        {
+            <dd>
+                <p>Emprestado</p>
+            </dd>
+        }
+        else
+        {
+            <dd>
+                <p>Disponível para empréstimo</p>
+            </dd>
+        }
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { Id = Model.Id }) |
+    <a type="button" class="btn btn-default" href="~/Livros/Index" style="width:80px; height:40px">
+        <label>Voltar</label>
+    </a>
+</p>

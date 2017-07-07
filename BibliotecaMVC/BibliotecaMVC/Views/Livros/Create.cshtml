@@ -1,0 +1,73 @@
+﻿@model BibliotecaMVC.Models.Livro
+
+@{
+    ViewBag.Title = "Cadastrar Livro";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form">
+        <fieldset>
+            <h2>@ViewBag.Title</h2>
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <br />
+
+            <!-- Título do Livro -->
+            <div class="form-group">
+                <label for="Nome" class="col-lg-2 control-label">Título:</label>
+                <div class="col-lg-10">
+                    @Html.TextBoxFor(m => m.Nome, new { @class = "form-control", @maxlength = "100" })
+                    @Html.ValidationMessageFor(m => m.Nome, "", new { @class = "text-danger" })
+                    <br />
+                </div>
+            </div>
+            <!-- Autor(a) do Livro -->
+            <div class="form-group">
+                <label for="Autor" class="col-lg-2 control-label">Autor(a):</label>
+                <div class="col-lg-10">
+                    @Html.TextBoxFor(m => m.Autor, new { @class = "form-control", @maxlength = "100" })
+                    @Html.ValidationMessageFor(m => m.Autor, "", new { @class = "text-danger" })
+                    <br />
+                </div>
+            </div>
+            <!-- Categoria -->
+            <div class="form-group">
+                <label for="Categoria" class="col-lg-2 control-label">Categoria:</label>
+                <div class="col-md-10">
+                    @Html.DropDownListFor(m => m.IdCategoria, ViewBag.Categorias as IEnumerable<SelectListItem>, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.IdCategoria, "", new { @class = "text-danger" })
+                    <br />
+                </div>
+            </div>
+            <!-- Sinópse -->
+            <div class="form-group">
+                <label for="Sinopse" class="col-lg-2 control-label">Sinópse:</label>
+                <div class="col-lg-10">
+                    @Html.TextAreaFor(m => m.Sinopse, new { @class = "form-control", @maxlength = "500", @rows = "3" })
+                    <br />
+                </div>
+            </div>
+            <!-- Status de Disponibilidade -->
+            <div class="form-group">
+                <label for="Status" class="col-lg-2 control-label">Disponibilidade:</label>
+                <div class="col-lg-10">
+                    <div class="checkbox" style="margin-left:20px; margin-top:-1px">
+                        @Html.CheckBoxFor(m => m.Disponivel)
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                    <br />
+                    <input type="submit" value="Salvar" class="btn btn-primary" style="width:100px" />
+                    <a type="button" class="btn btn-default" href="~/Livros/Index" style="width:80px; height:40px">
+                        <label>Voltar</label>
+                    </a>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+}

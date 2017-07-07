@@ -1,0 +1,82 @@
+﻿@using BibliotecaMVC.Controllers;
+@model IEnumerable<BibliotecaMVC.Models.Livro>
+
+@{
+    ViewBag.Title = "Livros";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="form">
+    <h2>@ViewBag.Title</h2>
+    <br />
+    <div class="form-group">
+        @if (Model != null)
+        {
+            <table class="table">
+                <tr>
+                    <th>
+                        <label>Título</label>
+                    </th>
+                    <th>
+                        <label>Autor(a)</label>
+                    </th>
+                    <th>
+                        <label>Categoria</label>
+                    </th>
+                    <th>
+                        <label>Status</label>
+                    </th>
+                    <th>
+                        <label>Ação</label>
+                    </th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <p>@item.Nome</p>
+                        </td>
+                        <td>
+                            <p>@item.Autor</p>
+                        </td>
+
+                        @if (item.IdCategoria != 0)
+                        {
+                            var _controller = new CategoriasController();
+                            var categoria = _controller.GetCategoriaByNome(item.IdCategoria);
+
+                            <td>
+                                <p>@categoria</p>
+                            </td>
+                        }
+
+                        @if (!item.Disponivel)
+                        {
+                            <td>
+                                <p>Emprestado</p>
+                            </td>
+                            <td>
+                                @Html.ActionLink("Detalhes", "Details", new { Id = item.Id })
+                            </td>
+                        }
+                        else
+                        {
+                            <td>
+                                <p>Disponível para empréstimo</p>
+                            </td>
+                            <td>
+                                @Html.ActionLink("Editar", "Edit", new { Id = item.Id }) |
+                                @Html.ActionLink("Detalhes", "Details", new { Id = item.Id }) |
+                                @Html.ActionLink("Excluir", "Delete", new { Id = item.Id })
+                            </td>
+                        }
+                    </tr>
+                }
+            </table>
+        }
+    </div>
+    <div class="form-group">
+        <a type="button" class="btn btn-primary" style="width:100px" href="~/Livros/Create"><label>Cadastrar</label></a>
+    </div>
+</div>

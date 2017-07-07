@@ -1,0 +1,47 @@
+﻿@using BibliotecaMVC.Controllers;
+@model BibliotecaMVC.Models.Cliente
+
+@{
+    ViewBag.Title = "Detalhes do Cliente";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            <label>Nome: </label>
+        </dt>
+        <dd>
+            @Html.DisplayFor(m => m.Nome)
+        </dd>
+        <dt>
+            <label>Endereço: </label>
+        </dt>
+        <dd>
+            @Html.DisplayFor(m => m.Endereco)
+        </dd>
+        <dt>
+            <label>Status:</label>
+        </dt>
+
+        @if (!Model.Status)
+        {
+            <dd>
+                <p>Inativo</p>
+            </dd>
+        }
+        else
+        {
+            <dd>
+                <p>Ativo</p>
+            </dd>
+        }
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { Id = Model.Id }) |
+    <a type="button" class="btn btn-default" href="~/Clientes/Index" style="width:80px; height:40px">
+        <label>Voltar</label>
+    </a>
+</p>

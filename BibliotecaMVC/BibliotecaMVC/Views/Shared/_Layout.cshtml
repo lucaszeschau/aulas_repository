@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Biblioteca MVC", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    @*<li>@Html.ActionLink("Home", "Index", "Home")</li>*@
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp;Clientes<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a href="~/Clientes/Index"><span class="glyphicon glyphicon-list" aria-hidden="true"></span>&nbsp;Página Inicial</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="~/Clientes/Create"><span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>&nbsp;Cadastrar Cliente</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>&nbsp;Categorias<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a href="~/Categorias/Index"><span class="glyphicon glyphicon-list" aria-hidden="true"></span>&nbsp;Página Inicial</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="~/Categorias/Create"><span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>&nbsp;Nova Categoria</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <span class="glyphicon glyphicon-book" aria-hidden="true"></span>&nbsp;Livros<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a href="~/Livros/Index"><span class="glyphicon glyphicon-list" aria-hidden="true"></span>&nbsp;Página Inicial</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="~/Livros/Create"><span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>&nbsp;Novo Livro</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="~/Operacoes/Index">Empréstimos/Devoluções</a></li>
+                </ul>
+                @*@Html.Partial("_LoginPartial")*@
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Projeto Biblioteca</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

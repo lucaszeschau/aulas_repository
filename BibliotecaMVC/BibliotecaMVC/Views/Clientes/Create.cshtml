@@ -1,0 +1,52 @@
+﻿@model BibliotecaMVC.Models.Cliente
+
+@{
+    ViewBag.Title = "Cadastrar Cliente";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form">
+        <fieldset>
+            <h2>@ViewBag.Title</h2>
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <br />
+            <div class="form-group">
+                <label for="Nome" class="col-lg-2 control-label">Nome:</label>
+                <div class="col-lg-10">
+                    @Html.TextBoxFor(m => m.Nome, new { @class = "form-control", @maxlength = "100" })
+                    @Html.ValidationMessageFor(m => m.Nome, "", new { @class = "text-danger" })
+                    <br />
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Endereco" class="col-lg-2 control-label">Endereço:</label>
+                <div class="col-lg-10">
+                    @Html.TextBoxFor(m => m.Endereco, new { @class = "form-control", @maxlength = "100" })
+                    @Html.ValidationMessageFor(m => m.Endereco, "", new { @class = "text-danger" })
+                    <br />
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Status" class="col-lg-2 control-label">Status:</label>
+                <div class="col-lg-10">
+                    <div class="checkbox" style="margin-left:20px; margin-top:-1px">
+                        @Html.CheckBoxFor(m => m.Status)
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                    <br />
+                    <input type="submit" value="Salvar" class="btn btn-primary" style="width:100px" />
+                    <a type="button" class="btn btn-default" href="~/Clientes/Index" style="width:80px; height:40px">
+                        <label>Voltar</label>
+                    </a>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+}

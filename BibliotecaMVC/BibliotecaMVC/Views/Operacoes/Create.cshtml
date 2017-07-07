@@ -1,0 +1,55 @@
+﻿@model BibliotecaMVC.Models.Operacao
+
+@{
+    ViewBag.Title = "Cadastrar Empréstimo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form">
+        <fieldset>
+            <h2>@ViewBag.Title</h2>
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <br />
+
+            <!-- Livro -->
+            <div class="form-group">
+                <label for="Livro" class="col-lg-2 control-label">Livro:</label>
+                <div class="col-md-10">
+                    @Html.DropDownListFor(m => m.IdLivro, ViewBag.Livros as IEnumerable<SelectListItem>, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.IdLivro, "", new { @class = "text-danger" })
+                    <br />
+                </div>
+            </div>
+            <!-- Cliente -->
+            <div class="form-group">
+                <label for="Cliente" class="col-lg-2 control-label">Cliente:</label>
+                <div class="col-md-10">
+                    @Html.DropDownListFor(m => m.IdCliente, ViewBag.Clientes as IEnumerable<SelectListItem>, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.IdCliente, "", new { @class = "text-danger" })
+                    <br />
+                </div>
+            </div>
+            <!-- Data de Empréstimo -->
+            <div class="form-group">
+                <label for="DataEmprestimo" class="col-lg-2 control-label">Data de Empréstimo:</label>
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.DataEmprestimo, new { @class = "form-control", @type = "date" })
+                    <br />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                    <br />
+                    <input type="submit" value="Salvar" class="btn btn-primary" style="width:100px" />
+                    <a type="button" class="btn btn-default" href="~/Operacoes/Index" style="width:80px; height:40px">
+                        <label>Voltar</label>
+                    </a>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+}
